@@ -2,7 +2,7 @@ import pymongo
 import requests
 import json
 
-client = pymongo.MongoClient("mongodb+srv://zircoz:zecopeco@cluster0.rtbr2.gcp.mongodb.net/SimComps?retryWrites=true&w=majority&authMechanism=SCRAM-SHA-1")
+client = pymongo.MongoClient("")
 encyclo_db = client['SimComps']
 encyclo_collection = encyclo_db['EncyclopediaResources']
 
